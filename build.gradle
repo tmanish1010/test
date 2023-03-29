@@ -7,7 +7,9 @@ buildscript {
     }
 }
 
-bootRepackage.enabled = false
+bootRepackage {
+    mainClass = 'youPackage.Application'
+}
 apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'idea'
