@@ -1,8 +1,0 @@
-endpoints:
-  prometheus:
-    path: "prometheus-metrics"
-
-management:
-  port: 8081
-  security:
-    enabled: false
